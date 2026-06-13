@@ -1,3 +1,7 @@
+# devops-capstone-project
+
+This project is an account microservice for an e-commerce website. The service provides REST API endpoints to create, read, update, delete, and list customer accounts. It is developed as part of the IBM DevOps and Software Engineering Capstone Project.
+
 # DevOps Capstone Template
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
