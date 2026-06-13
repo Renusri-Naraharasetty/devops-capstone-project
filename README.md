@@ -1,3 +1,5 @@
+![CI Build](https://github.com/Renusri-Naraharasetty/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 # devops-capstone-project
 
 This project is an account microservice for an e-commerce website. The service provides REST API endpoints to create, read, update, delete, and list customer accounts. It is developed as part of the IBM DevOps and Software Engineering Capstone Project.
