@@ -153,6 +153,7 @@ class TestAccountService(TestCase):
 
         data = resp.get_json()
         self.assertEqual(len(data), 5)
+
     def test_list_no_accounts(self):
         """It should return an empty list"""
         resp = self.client.get(
@@ -186,6 +187,7 @@ class TestAccountService(TestCase):
 
         data = resp.get_json()
         self.assertEqual(data["phone_number"], "555-1111")
+
     def test_update_account_not_found(self):
         """It should not Update an Account that is not found"""
         account_data = {
