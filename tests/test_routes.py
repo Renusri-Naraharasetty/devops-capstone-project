@@ -119,7 +119,6 @@ class TestAccountService(TestCase):
         )
 
     def test_create_account(self):
-        """It should Create a new Account"""
         account = AccountFactory()
         response = self.client.post(
             BASE_URL,
