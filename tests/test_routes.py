@@ -116,7 +116,7 @@ class TestAccountService(TestCase):
         self.assertEqual(
             response.headers.get("Access-Control-Allow-Origin"),
             "*"
-        )   
+        )
 
     def test_create_account(self):
         """It should Create a new Account"""
